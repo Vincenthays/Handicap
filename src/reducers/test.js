@@ -4,7 +4,7 @@ initialState = {
     value: 0
 }
 
-export default test = (state = initialState, action) => {
+export default (state = initialState, action) => {
     switch (action.type) {
         case ADD_ONE:
             return {

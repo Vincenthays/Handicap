@@ -1,15 +1,15 @@
-import React, { Component } from 'react'
-import { StyleSheet, View, Text } from 'react-native'
+import React, { Component } from 'react';
+import { StyleSheet, View, Text } from 'react-native';
 
-export default class SettingsScreen extends Component {
+export default class MapDetailsScreen extends Component {
   static navigationOptions = {
-    title: 'Settings',
+    title: 'Person',
   };
 
   render() {
     return (
       <View style={styles.container}>
-        <Text style={{fontSize: 50, fontWeight: 'bold'}}>Settings</Text>
+        <Text style={{fontSize: 50, fontWeight: 'bold'}}>Person</Text>
       </View>
     );
   }

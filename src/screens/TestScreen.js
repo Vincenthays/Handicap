@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { StyleSheet, View, Text, FlatList, Button } from 'react-native'
-import { addOne, subtractOne } from '../actions/test'
+import { addOne, subtractOne } from '../actions'
 import { connect } from 'react-redux'
 
 class TestScreen extends Component {
@@ -62,4 +62,4 @@ const styles = StyleSheet.create({
       fontSize: 18,
       height: 44,
     }
-});
+})

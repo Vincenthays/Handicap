@@ -1,9 +1,6 @@
-import { combineReudcers } from 'redux'
+import { combineReducers } from 'redux'
 import test from './test'
 
-
-// export default combineReudcers({
-//     test,
-// })
-
-export default test
+export default combineReducers({
+    test,
+})
